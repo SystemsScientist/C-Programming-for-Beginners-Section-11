@@ -1,0 +1,67 @@
+
+Section 11: Overview
+----------------------------------------------------------------------------------
+
+Techniques and Tools
+
+	- Tracing/Using print statements
+		+ Output values of variables at certain points
+		  of a program
+		+ Show the flow of execution
+		+ Can help isolate the error
+	
+	- Debuggers
+		+ Monitor the execution of a program, stop it, restart it,
+		  set breakpoints and watch variables in memory
+
+	- Log Files
+		+ Can be used for analysis, add "good" log statements to
+		  your code
+
+	- Monitoring Software
+		+ Run-time analysis of memory usage, network traffic, 
+		  thread and object information
+
+Common Debugging Tools
+
+	- Exception Handling helps a great deal to identify catastrophic
+	  errors
+		+ Unfortunately, C does not have this capability
+
+	- Static Analyzers
+		+ Analyze source code for specific set of known problems
+		+ Semantic checker, does not analyze syntax
+		+ Can detect things like uninitialized variables, memory
+		  leaks, unreachable code, deadlocks or race conditions
+
+	- Test Suites
+		+ Run a set of comprehensive system end-to-end tests
+
+	- Debugging the program after it has crashed
+		+ Analyze the call stack
+		+ Analyze memory dump (core file)
+
+Preventing Errors
+
+	- Write high quality code (follow good design principles
+	  and good programming practices)
+
+	- Unit Tests
+		+ Automatically executed when compiling
+		+ Helps avoid regression
+		+ Finds errors in new code before it is delivered
+		+ TDD (Test Driven Development)
+	
+	- Provide good documentation and proper planning (write
+	  down design on paper and utilize pseudocode)
+
+	- Work in steps and constantly test after each step
+		+ Avoid too many changes at once
+		+ When making changes, apply them incrementally. Add
+		  one change, then test thoroughly before starting
+		  the next step
+		+ Helps reduce the possible sources of bugs, limits
+		  problem set 
+
+
+
