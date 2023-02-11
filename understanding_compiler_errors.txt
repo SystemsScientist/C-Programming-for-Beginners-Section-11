@@ -1,0 +1,43 @@
+
+Section 11: Understanding Compiler Errors
+-----------------------------------------------------------------------------------------------------------------
+
+Overview
+
+	- it is sometimes very hard to understand what the compiler is complaining about
+		+ need to understand compiler errors in order to fix them
+		+ it is sometimes difficult to identify the true reason behind a 
+		  compiler error
+
+	- the compiler makes decisions about how to translate the code that the
+	  programmer has not written in the code
+		+ is convenient because the programs can be written more succinctly
+		  (only expert programmers take advantage of this feature)
+
+	- you should use an option for the compiler to notify all cases where there
+	  are implicit decisions
+		+ this option is -Wall (turned on by default in Code::Blocks)
+
+	- the compiler shows two types of problems
+		+ errors
+		+ warnings
+
+	- compile always with the -Wall option and do not consider the program
+	  correct until all warnings have been eliminated
+
+Most Common Compiler Messages
+
+	- variable undeclared
+	
+	- warning: implicit declaration of function
+
+	- warning: control reaches end of non-void function
+
+	- warning: unused variable
+
+	- undefined reference to
+
+	- error: conflicting types for
+
+
+
