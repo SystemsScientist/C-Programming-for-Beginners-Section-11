@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676116238 source:/home/snarkydata/udemy-courses/C-Courses/C-Programming-For-Beginners/Section-11-Debugging/Code-Blocks-Debugger/main.c
+	<stdio.h>
+	<stdlib.h>
+
