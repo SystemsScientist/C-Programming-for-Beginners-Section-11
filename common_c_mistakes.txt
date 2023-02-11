@@ -1,0 +1,40 @@
+
+Section 11: Common C Mistakes
+---------------------------------------------------------------------------------
+
+Common C Mistakes
+
+	- Misplacing a semicolon
+
+	- Confusing the operator "=" with the operator "=="
+
+	- Omitting prototype declarations
+
+	- Failing to include the header file that includes the 
+       	  definition for a C programming library function being
+	  used in the program
+	
+	- Confusing a character constant 'a' and a character string
+	  "a"
+
+	- Using the wrong bounds for an array (arrays are zero based)
+
+	- Confusing the operator "->" with the operator "." when referencing
+	  structure members (have not discussed this yet)
+
+	- Omitting the ampersand before nonpointer variables in a scanf()
+	  call
+
+	- Using a pointer variable before it's initialized (have not
+  	  discussed this yet)
+
+	- Omitting the break statement at the end of a case in a switch
+  	  statement
+
+	- Inserting a semicolon at the end of a preprocessor definition
+
+	- Omitting a closing parentheses or closing quotation marks on
+	  any statement
+	 
+
+
